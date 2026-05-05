@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "ana-maria-molina",
+  "builds": [
+    {
+      "src": "ana-maria-molina.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/ana-maria-molina.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/ana-maria-molina.html"
+    }
+  ]
+}
